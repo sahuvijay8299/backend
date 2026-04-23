@@ -1,0 +1,11 @@
+node_mudules/
+.env
+logs
+*.logs
+dist/
+build/
+.DS_Store
+Thumb.db
+.vscode./
+.idea/
+uploads/
