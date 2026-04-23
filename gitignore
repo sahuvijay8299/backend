@@ -1,11 +1,11 @@
-node_mudules/
+node_modules/
 .env
 logs
 *.logs
 dist/
 build/
 .DS_Store
-Thumb.db
-.vscode./
+Thumbs.db
+.vscode/
 .idea/
 uploads/
