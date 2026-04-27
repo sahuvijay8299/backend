@@ -21,6 +21,9 @@ const userAuthRoutes = require("./routes/user/userAuthRoutes");
 app.use("/userauth/api", userAuthRoutes);
 
 
+const cartsroutes = require("./routes/carts/cartsroutes");
+app.use("/carts/api", cartsroutes);
+
 
 app.get("/", (req, res) => {
   res.status(200).json("server started");
